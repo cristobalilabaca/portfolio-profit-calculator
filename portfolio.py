@@ -3,7 +3,6 @@ from datetime import datetime
 class Stock:
   def __init__(self, symbol):
     self.symbol = symbol
-    self.current_price = 3
 
   def price(self, date):
     # Simulate stock price

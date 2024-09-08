@@ -1,0 +1,3 @@
+This is a portfolio representation in a Python class. It assumes that a Stock class has been defined, which has a symbol attribute and a “Price” method that takes a date and returns its price (a placeholder Stock class is included). The Portfolio class has the following methods:
+- add_stock: Adds a stock to the portfolio. It takes a Stock object and the number of shares of that stock.
+- profit: Takes two dates and returns the profit of the portfolio between those dates. The profit is returned as a dictionary with three keys: the profit expressed in money, in percentage, and as the annualized return.
